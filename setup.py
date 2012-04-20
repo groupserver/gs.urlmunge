@@ -41,7 +41,7 @@ setup(name='gs.urlmunge',
     ],
     entry_points="""
         [paste.filter_app_factory]
-        munge = gs.urlmunge.munger:MungeServerUrl
+        munge = gs.urlmunge.munger:make_munger
     """,
 )
 
