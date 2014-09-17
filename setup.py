@@ -8,8 +8,8 @@ version = get_version()
 setup(name='gs.urlmunge',
     version=version,
     description="Munge URLs so they work with repoze.vhm and Zope 2.13.13",
-    long_description=open("README.txt").read() + "\n" +
-                    open(os.path.join("docs", "HISTORY.txt")).read(),
+    long_description=open("README.rst").read() + "\n" +
+                    open(os.path.join("docs", "HISTORY.rst")).read(),
     classifiers=[
         "Development Status :: 4 - Beta",
         "Environment :: Web Environment",
